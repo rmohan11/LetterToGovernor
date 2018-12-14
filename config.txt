@@ -1,0 +1,14 @@
+{
+"headers" : {"Authorization": "Basic dGVzdF8wZGM4ZDUxZTBhY2ZmY2IxODgwZTBmMTljNzliMmY1YjBjYzo="},
+
+"lob_url" : "https://api.lob.com/v1/",
+"lob_key" : "test_0dc8d51e0acffcb1880e0f19c79b2f5b0cc",
+
+"template_suffix" : "templates/",
+
+"html_file" : "sample_letter.html",
+
+"civic_api_key" : "AIzaSyDqcAFQJOv6hc6FiyFB2qKV0n3GzUJYapA",
+"civic_service" : "civicinfo",
+"civic_ver" : "v2"
+}

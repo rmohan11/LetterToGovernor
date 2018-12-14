@@ -1,0 +1,10 @@
+{
+    "name":"Rakesh Mohan",
+    "address_line1":"1701, East 8th Street",
+    "address_line2":"",
+    "address_city":"Tempe",
+    "address_state":"Az",
+    "address_country":"US",
+    "address_zip":"85281",
+    "message": "Hello Governor, This is a sample letter sent using LOB endpoints"
+}
