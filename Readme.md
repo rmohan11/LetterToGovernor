@@ -31,10 +31,10 @@
 
 		Message generated as the file is being processed:
 			
-		Reading the from address and message from the input file
-		Retrieving Governor's address from the Civic API
-		Creating a HTML TEMPLATE
-		Creating the Letter
+		- Reading the from address and message from the input file
+		- Retrieving Governor's address from the Civic API
+		- Creating a HTML TEMPLATE
+		- Creating the Letter
 
 	Step c) Use the resulting url in your browser to find the created letter.
 
