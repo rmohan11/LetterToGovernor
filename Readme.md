@@ -1,14 +1,19 @@
+## Instruction to run the program
+
 1. Create a file with the following json object
-{
-    "name":"Rakesh Mohan",
-    "address_line1":"1701, East 8th Street",
-    "address_line2":"",
-    "address_city":"Tempe",
-    "address_state":"Az",
-    "address_country":"US",
-    "address_zip":"85281",
-    "message": "Hello Governor, This is a sample letter sent using LOB endpoints"
-}. The json object contains the address of the sender along with the message that needs to be sent. This file is expected to be in the current working directory.
+
+	{
+	    "name":"Rakesh Mohan",
+	    "address_line1":"1701, East 8th Street",
+	    "address_line2":"",
+	    "address_city":"Tempe",
+	    "address_state":"Az",
+	    "address_country":"US",
+	    "address_zip":"85281",
+	    "message": "Hello Governor, This is a sample letter sent using LOB endpoints"
+	}. 
+
+	The json object contains the address of the sender along with the message that needs to be sent. This file is expected to be in the current working directory.
 
 2. The letter is created for the Governor of the state.
 
@@ -24,15 +29,15 @@
 	Step b) Enter the file name(default:MyFile.txt): <<Give the newly created file name present in the same working directory or Just press enter to take the default file for processing>>
 
 
-		Message generated as the file is being processed:
-		Reading the from address and message from the input file
-		Retrieving Governor's address from the Civic API
-		Creating a HTML TEMPLATE
-		Creating the Letter
+		## Message generated as the file is being processed:
+			Reading the from address and message from the input file
+			Retrieving Governor's address from the Civic API
+			Creating a HTML TEMPLATE
+			Creating the Letter
 
-	Step c) Use the resulting url in your browser to find the created 			letter.
+	Step c) Use the resulting url in your browser to find the created letter.
 
-		Output:
+		## Output:
 		Url for Letter: https://s3.us-west-2.amazonaws.com/assets.lob.com/ltr_b1fb0befafea5057_thumb_large_1.png?AWSAccessKeyId=AKIAIILJUBJGGIBQDPQQ&Expires=1515910095&Signature=V0vBhopIjXsn65neoYQWIxCb8RM%3D
 
 
