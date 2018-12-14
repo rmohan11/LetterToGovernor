@@ -1,7 +1,8 @@
 ## Instruction to run the program
 
-1. Create a file with the following json object
+1. Create a file with the following json object. The json object contains the address of the sender along with the message that needs to be sent. This file is expected to be in the current working directory.
 
+```json
 	{
 	    "name":"Rakesh Mohan",
 	    "address_line1":"1701, East 8th Street",
@@ -12,8 +13,7 @@
 	    "address_zip":"85281",
 	    "message": "Hello Governor, This is a sample letter sent using LOB endpoints"
 	}. 
-
-	The json object contains the address of the sender along with the message that needs to be sent. This file is expected to be in the current working directory.
+```
 
 2. The letter is created for the Governor of the state.
 
